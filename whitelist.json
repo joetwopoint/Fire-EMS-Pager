@@ -1,0 +1,10 @@
+[
+	{
+		"steamhex"		:	"steam:1100001076264E1",
+		"pager"			:	false,
+		"page"			:	false,
+		"firesiren"		:	false,
+		"cancelpage"	:	false,
+		"pagerwhitelist": 	false
+	}
+]
