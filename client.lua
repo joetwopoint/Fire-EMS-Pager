@@ -617,7 +617,7 @@ AddEventHandler('Fire-EMS-Pager:PlayTones', function(Tones, HasDetails, Details)
 					-- Red
 					color = { 255, 0, 0},
 					multiline = true,
-					args = {'Dispatch', '\nAttention ' .. Config.DeptName .. ' - ' .. NewDetails .. ' - ' .. NewTones .. 'Emergency.\n\nTimeout ' .. Hours .. Minutes.. '.'}
+					args = {'Dispatch', '\nAttention ' .. NewTones .. ' - ' .. NewDetails .. ' - ' .. NewTones .. 'Emergency.\n\nTimeout ' .. Hours .. Minutes.. '.'}
 				})
 			-- If no details provided
 			else
@@ -627,7 +627,7 @@ AddEventHandler('Fire-EMS-Pager:PlayTones', function(Tones, HasDetails, Details)
 					-- Red
 					color = { 255, 0, 0},
 					multiline = true,
-					args = {'Arizona Dispatch', '\nAttention ' .. Config.DeptName .. ' - ' .. Config.DefaultDetails .. '.\n\nTimeout ' .. Hours .. Minutes.. '.'}
+					args = {'Arizona Dispatch', '\nAttention ' .. NewTones .. ' - ' .. Config.DefaultDetails .. '.\n\nTimeout ' .. Hours .. Minutes.. '.'}
 				})
 			end
 		else
